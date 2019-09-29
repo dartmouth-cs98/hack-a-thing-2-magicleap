@@ -20,12 +20,17 @@ Moving on, we also implemented a script that mobilizes the unicorn per user inpu
 I set up the initial Unity project with customized settings for play in Magic Leap. I also set up the Device and connected it to our project with Previewing with Unity Play Mode. I also added Device Streaming. I also made a unicorn model to be played with.
 
 ### Angi
+I also set up the development environment for Magic Leap in Unity, created a simple cube to be initially tested, then implemented a script that uses the Gestures API in the Lumin SDK to recognize hand poses and manipulate the rotation of the unicorn based on which hand pose is recognized.
 
 ## What we learned
+We went through the steps of setting up a project to be compatible with Magic Leap, installed the necessary tools and software, and configured settings both in Unity and on the device. We also set up device live-streaming with Device Stream.
 
+Settings aside, we learned a little about how gesture tracking and hand tracking works using the Lumin SDK's built in API that uses machine learning to detect hand poses. We created a model of a unicorn, and learned how to control it using a few of the hand poses. Overall, working with the Magic Leap was a very cool experience, well-documented, and something we hope to continue working with in our actual project.
 
 ## What didn't work
+Setting up the Magic Leap took a lot longer than expected, just in terms of adjusting settings and getting the required certificates. Then, at first getting the Magic Leap device streaming to the computer was a bit buggy. We soon got it working using the Device Stream package which is currently in beta. The Device Stream works fairly well, but the feed is very laggy, which caused issues when we tried to record sample videos. Overall, the Device Stream feature is a really useful one to have, even if a bit laggy.
 
+We also initially had a bit of trouble getting the cube to show in the field of vision, but soon learned to adjust objects in the scene to fit the ML view.
 
 ## Reference
 - [Dev Set up] (https://creator.magicleap.com/learn/guides/develop-setup)
