@@ -1,8 +1,42 @@
-# Magic Leap Unity Project Template
+# Magic Leap
 
-## Project
+### Sia Peng and Angi Li
 
-Hello, Cube!
+## What we built
+
+We both have some experience with Oculus & VR but haven't tried AR lenses yet. Hence, for our heack-a-thing 2, we want to explore AR in Magic Leap.
+
+We downloaded package tool for Magic Leap, set up previewing with Unity Play Mode, added Device streaming, and created a Unity Project with corresponding SDK and project settings. We then created a simple scene with a unicorn in it.
+
+Moving on, we also implemented a script that mobilizes the unicorn per user input (Hand Poses/Gestures). Specifically, the unicorn is static initially but it will then be activated once our app recognizes the OK hand pose. Once active, the user can control which direction the unicorn rotates via left or right hand OpenHand, Fist and Finger hand poses.
+
+![Demo](https://j.gifs.com/6XG5xV.gif)
+
+
+## Who did What
+
+### Sia
+I set up the initial Unity project with customized settings for play in Magic Leap. I also set up the Device and connected it to our project with Previewing with Unity Play Mode. I also added Device Streaming. I also made a unicorn model to be played with.
+
+### Angi
+
+## What we learned
+
+
+## What didn't work
+
+
+## Reference
+- [Dev Set up] (https://creator.magicleap.com/learn/guides/develop-setup)
+- [Device Set up] (https://creator.magicleap.com/learn/guides/develop-device-setup)
+- [Connect] (https://creator.magicleap.com/learn/guides/connect-device)
+- [Certificate] (https://creator.magicleap.com/learn/guides/developer-certificates)
+- [Starter] (https://creator.magicleap.com/learn/guides/get-started-developing-in-unity)
+- [Unity Setup] (https://creator.magicleap.com/learn/guides/unity-setup)
+- [First App] (https://creator.magicleap.com/learn/guides/gsg-create-your-first-unity-app)
+- [Play Mode] (https://creator.magicleap.com/learn/guides/sdk-play-mode-in-unity-with-ml-remote)
+- [Hand Post] (https://creator.magicleap.com/learn/guides/gestures-in-unity)
+
 
 ## Versions
 
@@ -17,23 +51,3 @@ v0.22.0
 ### LuminOS
 
 0.97.x
-
-## Downloading
-
-1) Download the latest Source Code .`zip` release file from <https://github.magicleap.com/DevRelSamples/Unity-Project-Template/releases/>.
-2) Extract the zip file in a directory of your choice.
-
-## Instructions After Downloading
-
-1) Using Unity Hub, download Unity 2019.2.x and make sure Lumin support is checked during installation
-2) `ADD` the project using Unity Hub
-3) Open the project using Unity Hub
-4) Under File > Build Settings, make sure the build target is Lumin
-5) Under Unity preferences, set the MLSDK path
-6) Under project settings > publishing settings, set your cert path (and make sure the privkey file is in the same directory. If this is confusing, refer to and read our docs. There’s also a `README` in the privkey folder after unzipping)
-7) Make sure USB debugging is enabled between your device and computer (which requires MLDB access) and you’re allowing untrusted sources
-8) Open the `HelloCube` Scene from `Assets`>`Scenes`>`HelloCube`
-9) Build and Run
-10) Accept the cert if prompted after build is complete
-11) There will be a cube 1 meter in front of where your current headpose session started
-# hack-a-thing-2-magicleap
