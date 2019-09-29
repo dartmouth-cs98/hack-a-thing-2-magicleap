@@ -10,7 +10,8 @@ We downloaded package tool for Magic Leap, set up previewing with Unity Play Mod
 
 Moving on, we also implemented a script that mobilizes the unicorn per user input (Hand Poses/Gestures). Specifically, the unicorn is static initially but it will then be activated once our app recognizes the OK hand pose. Once active, the user can control which direction the unicorn rotates via left or right hand OpenHand, Fist and Finger hand poses.
 
-![Demo](https://j.gifs.com/6XG5xV.gif)
+
+![Demo](gif.gif)
 
 
 ## Who did What
