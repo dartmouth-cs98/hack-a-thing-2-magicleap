@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf5b356e131a944286fec26d7c40b4e, type: 3}
   m_Name: MagicLeapManifestSettings
   m_EditorClassIdentifier: 
-  m_MinimumAPILevel: 6
+  m_MinimumAPILevel: 4
   m_Privileges:
   - name: LowLatencyLightwear
     enabled: 1
@@ -29,37 +29,37 @@ MonoBehaviour:
   - name: DrmCertificates
     enabled: 1
   - name: GesturesConfig
-    enabled: 1
+    enabled: 0
   - name: GesturesSubscribe
-    enabled: 1
+    enabled: 0
   - name: HandMesh
-    enabled: 1
+    enabled: 0
   - name: IdentityRead
     enabled: 1
   - name: InAppPurchase
-    enabled: 1
+    enabled: 0
   - name: Internet
     enabled: 1
   - name: MusicService
-    enabled: 1
+    enabled: 0
   - name: NormalNotificationsUsage
-    enabled: 1
+    enabled: 0
   - name: Occlusion
     enabled: 0
   - name: PcfRead
-    enabled: 1
+    enabled: 0
   - name: PowerInfo
     enabled: 1
   - name: RegisterBackgroundMusicService
     enabled: 1
   - name: ScreensProvider
-    enabled: 1
+    enabled: 0
   - name: SecureBrowserWindow
-    enabled: 1
+    enabled: 0
   - name: WifiStatusRead
     enabled: 1
   - name: WorldReconstruction
-    enabled: 1
+    enabled: 0
   - name: AddressBookRead
     enabled: 1
   - name: AddressBookWrite
@@ -75,6 +75,6 @@ MonoBehaviour:
   - name: CoarseLocation
     enabled: 1
   - name: ComputerVision
-    enabled: 1
+    enabled: 0
   - name: VoiceInput
     enabled: 1
