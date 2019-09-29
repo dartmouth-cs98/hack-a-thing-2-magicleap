@@ -43,7 +43,9 @@ ExportedObj/
 *.opendb
 *.VC.db*
 *.cert
-*.privkey 
+*.privkey
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/UnityConnectSettings.asset
 
 # Unity3D generated meta files
 *.pidb.meta
