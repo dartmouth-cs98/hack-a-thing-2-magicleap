@@ -8,7 +8,7 @@ We both have some experience with Oculus & VR but haven't tried AR lenses yet. H
 
 We downloaded package tool for Magic Leap, set up previewing with Unity Play Mode, added Device streaming, and created a Unity Project with corresponding SDK and project settings. We then created a simple scene with a unicorn in it.
 
-Moving on, we also implemented a script that mobilizes the unicorn per user input (Hand Poses/Gestures). Specifically, the unicorn is static initially but it will then be activated once our app recognizes the OK hand pose. Once active, the user can control which direction the unicorn rotates via left or right hand OpenHand, Fist and Finger hand poses.
+Moving on, we also implemented a script that mobilizes the unicorn per user input (Hand Poses/Gestures). Specifically, the unicorn is static initially but it will then be activated once our app recognizes the "OK" hand pose. Once active, the user can control which direction the unicorn rotates via left or right hand OpenHand, "fist" and "finger" hand poses. The "fist" hand pose rotates the unicorn around the vertical axis, and the "finger" pose rotates it around the horizontal axis. Switching from left and right hands changes the direction the unicorn rotates.
 
 
 ![Demo](gif.gif)
