@@ -27,6 +27,9 @@ We went through the steps of setting up a project to be compatible with Magic Le
 
 Settings aside, we learned a little about how gesture tracking and hand tracking works using the Lumin SDK's built in API that uses machine learning to detect hand poses. We created a model of a unicorn, and learned how to control it using a few of the hand poses. Overall, working with the Magic Leap was a very cool experience, well-documented, and something we hope to continue working with in our actual project.
 
+## How does this hack-a-thing inspire you or relate to your possible project ideas?
+This project inspired us to do more creative AR related project. Previously, because of equipment limitations, we only thought of VR project in Oculus or AR project on smartphones. However, seeing how powerful Magic Leap is, especially the possibility of it being controller-free, motivated us to do more adventurous projects, such as an annotation app that incorporates with real world objects and a game that users can interact with only hand gestures. 
+
 ## What didn't work
 Setting up the Magic Leap took a lot longer than expected, just in terms of adjusting settings and getting the required certificates. Then, at first getting the Magic Leap device streaming to the computer was a bit buggy. We soon got it working using the Device Stream package which is currently in beta. The Device Stream works fairly well, but the feed is very laggy, which caused issues when we tried to record sample videos. Overall, the Device Stream feature is a really useful one to have, even if a bit laggy.
 
